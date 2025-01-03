@@ -108,3 +108,48 @@ span {
 button:focus-visible {
   outline: 2px solid #ffffff;
 }
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .home-page-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .player-container {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .weapon-button, .submit-button, .fight-button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .type-photo {
+    width: 100px;
+  }
+
+  h2, h3, h4 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Very small screens (phones in portrait mode) */
+@media screen and (max-width: 480px) {
+  h2, h3, h4 {
+    font-size: 1rem;
+  }
+
+  .player-container {
+    width: 100%;
+  }
+
+  .weapon-button, .submit-button, .fight-button {
+    font-size: 12px;
+  }
+
+  .type-photo {
+    width: 80px;
+  }
+}
