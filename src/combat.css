@@ -5,10 +5,10 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #121212;
     color: #e0e0e0;
-  }
-  
-  /* Combat Container */
-  .combat-container {
+}
+
+/* Combat Container */
+.combat-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,25 +19,25 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     max-width: 800px;
     margin: 20px auto;
-  }
-  
-  /* Combat Title */
-  h1 {
+}
+
+/* Combat Title */
+h1 {
     color: #ff5722;
     font-size: 2rem;
     margin-bottom: 20px;
-  }
-  
-  /* Combat Players Container */
-  .combat-players {
+}
+
+/* Combat Players Container */
+.combat-players {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 20px;
-  }
-  
-  /* Player Card */
-  .player-combat {
+}
+
+/* Player Card */
+.player-combat {
     width: 250px;
     text-align: center;
     background-color: #2c2c2c;
@@ -45,43 +45,43 @@ body {
     padding: 15px;
     transition: transform 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  }
-  
-  .player-combat.active {
+}
+
+.player-combat.active {
     transform: scale(1.05);
-  }
-  
-  .player-image {
+}
+
+.player-image {
     max-width: 150px;
     margin: 15px auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-  }
-  
-  .hp-bar {
+}
+
+.hp-bar {
     width: 100%;
     height: 12px;
     background-color: #444;
     border-radius: 5px;
     margin: 10px 0;
-  }
-  
-  .hp-fill {
+}
+
+.hp-fill {
     height: 100%;
     background-color: #4caf50;
     border-radius: 5px;
     transition: width 0.3s ease;
-  }
-  
-  /* VS Section */
-  .vs h2 {
+}
+
+/* VS Section */
+.vs h2 {
     font-size: 2rem;
     color: #ff5722;
     margin: 20px;
-  }
-  
-  /* Combat Log */
-  .combat-log {
+}
+
+/* Combat Log */
+.combat-log {
     background-color: #333;
     color: #e0e0e0;
     padding: 15px;
@@ -92,17 +92,81 @@ body {
     margin: 20px auto;
     border: 1px solid #444;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-  }
-  
-  .combat-log p {
+}
+
+.combat-log p {
     margin: 5px 0;
-  }
-  
-  /* Combat Result */
-  .combat-winner {
+}
+
+/* Combat Result */
+.combat-winner {
     margin-top: 20px;
     font-size: 2rem;
     color: #ff5722;
     text-align: center;
-  }
-  
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+    /* Combat Container */
+    .combat-container {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .combat-players {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .player-combat {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .hp-bar {
+        height: 8px;
+    }
+
+    .combat-log {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .vs h2 {
+        font-size: 1.5rem;
+    }
+
+    .combat-winner {
+        font-size: 1.5rem;
+    }
+}
+
+/* Very small screens (phones in portrait mode) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .player-combat {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .player-image {
+        max-width: 120px;
+    }
+
+    .combat-log {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .vs h2 {
+        font-size: 1.2rem;
+    }
+}
