@@ -40,7 +40,8 @@
   "deploy": "gh-pages -d build" 
 },
 
-"homepage": "https://eylulozatman.github.io/combat-game"
+"homepage": "http://eylulozatman.github.io.battle-game/"
+
 
 
 }

@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 
 // Sayfalar
-import MainPage from "./MainPage"; // Homepage
-import AdminPage from "./AdminPage"; // Admin sayfası
+
 import HomePage from "./HomePage"; // Bu sayfa varsayılan olarak kullanıcıya gösterilecek
 
 const App = () => {
