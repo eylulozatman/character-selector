@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 
 // Sayfalar
 
-import HomePage from "./HomePage"; // Bu sayfa varsayılan olarak kullanıcıya gösterilecek
+import HomePage from "./homepage"; // Bu sayfa varsayılan olarak kullanıcıya gösterilecek
 
 const App = () => {
   return (
