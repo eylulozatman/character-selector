@@ -40,8 +40,7 @@
   "deploy": "gh-pages -d build" 
 },
 
-"homepage": "https://eylulozatman.github.io/character-selector/"
-
+  "homepage": "https://eylulozatman.github.io/character-selector/"
 
 
 }
