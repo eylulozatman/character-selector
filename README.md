@@ -1,3 +1,6 @@
-Application with character-selection screen and combat mechanics developed with React. 
+A mini game with fun battle mechanics!
+Choose from different character types, then equip a piece of equipment and start fighting.
+This application, developed in the style of a mini game, is made with React. Data storage is done with Firestore.
 
-Cloudinary was used for uploading photos and firestore was used for database.
+Access.
+https://eylulozatman.github.io/character-selector/
